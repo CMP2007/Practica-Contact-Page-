@@ -1,14 +1,10 @@
-body{
-    background-image: url(./img/bg-image.svg);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
 main{
     margin: auto;
     padding: 1.5rem;
     width: 900px;
+    background-image: url(./img/bg-image.svg);
+    background-size: cover;
+    background-position: center;
 }
 .icon{
     width: 7rem;
@@ -127,6 +123,7 @@ button{
     }
     .icon{
         margin-left: 3rem;
+        width: 7rem;
     }
     h1{
         font-size: 4.5rem;
@@ -137,7 +134,7 @@ button{
         width: 42rem;
     }
     form{
-        width: 52rem;
+        width: 50rem;
         margin: 4.5rem auto 3.5rem auto;
     }
   }
