@@ -1,10 +1,11 @@
-main{
-    margin: auto;
-    padding: 1.5rem;
-    width: 900px;
+body{
     background-image: url(./img/bg-image.svg);
     background-size: cover;
     background-position: center;
+}
+main{
+    margin: auto;
+    padding: 1.5rem;
 }
 .icon{
     width: 7rem;
@@ -74,7 +75,6 @@ button{
 
 @media (min-width: 1024px){
     main{
-        width: 1279px;
         padding: 2rem;
     }
     .icon{
@@ -118,9 +118,6 @@ button{
 
 
 @media (min-width: 1280px) {
-    main{
-      width: 100%;
-    }
     .icon{
         margin-left: 3rem;
         width: 7rem;
