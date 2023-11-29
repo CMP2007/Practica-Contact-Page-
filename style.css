@@ -44,6 +44,7 @@ label{
     color: #fff;
     font-family: 'Be Vietnam Pro', sans-serif;
     margin-bottom: 0.25rem;
+    margin-bottom: .2rem;
 }
 input, textarea, select, button{
     border-radius: .75rem;
@@ -56,6 +57,18 @@ input, textarea, select, button{
 ::placeholder{
     color: #CDD5E0;
 }
+select{
+    appearance: none;
+    background-image: url('./img/Expand_down.svg');
+    background-position: right 1.2rem top 50%; 
+    background-repeat: no-repeat;
+    padding-right: 2em;
+}
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #4036A9;
+}
+
 textarea{
     text-align: left;
     font-family: 'Be Vietnam Pro', sans-serif;
