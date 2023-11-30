@@ -2,27 +2,24 @@ body{
     background-image: url(./img/bg-image.svg);
     background-size: cover;
     background-position: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
 }
 main{
     margin: auto;
     padding: 1.5rem;
 }
-.icon{
-    width: 7rem;
-}
 h1, h2{
-    font-family: 'Be Vietnam Pro', sans-serif;
     color: #fff;
     text-align: center;
 }
 h1{
-    font-size: 3.3rem;
+    font-size: 3rem;
     font-weight: 600;
     margin: 2rem;
     margin-bottom: 1.5rem;
 }
 h2{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-weight: 400;
     margin: 0rem 4.7rem;
     letter-spacing: 0.07rem;
@@ -42,7 +39,6 @@ div{
 }
 label{
     color: #fff;
-    font-family: 'Be Vietnam Pro', sans-serif;
     margin-bottom: 0.25rem;
     margin-bottom: .2rem;
 }
@@ -71,12 +67,10 @@ select{
 
 textarea{
     text-align: left;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    height: 11rem;
+    height: 8.5rem;
 }
 button{
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     color: #4036A9;
     font-weight: 800;
 }
@@ -86,12 +80,9 @@ button{
 
 
 
-@media (min-width: 1024px){
+@media (min-width: 900px){
     main{
         padding: 2rem;
-    }
-    .icon{
-        width: 8rem;
     }
     h1{
         width: 30rem;
@@ -130,10 +121,9 @@ button{
 
 
 
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
     .icon{
         margin-left: 3rem;
-        width: 7rem;
     }
     h1{
         font-size: 4.5rem;
